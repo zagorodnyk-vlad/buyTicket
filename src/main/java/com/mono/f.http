@@ -1,0 +1,14 @@
+GET http://localhost:8080/cards/getFlights
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/cards/buyTicket
+Content-Type: application/json
+
+{
+  "fio": "231312",
+  "flightId": 2
+}
+
+###
